@@ -6,7 +6,7 @@ A simple point-and-click game made with JavaScript.
 
 ### Demo
 
-Click [here](https://mrspecht.github.io/click-me/) to play.
+Click [here](https://nathanshuai.github.io/guessing-game/) to play.
 
 <br />
 
