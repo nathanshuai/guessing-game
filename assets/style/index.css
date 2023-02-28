@@ -1,0 +1,69 @@
+@import url(./reset.css);
+
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-green: #33ab4e;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-red: #ff3c57;
+  --app-red-hover: #ff2846;
+  --app-white:#fff;
+}
+
+body {
+  background-color: var(--app-purple);
+}
+
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: var(--app-purple);
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+}
+
+main h1 {
+  font-weight: 800;
+  color: var(--app-red-hover);
+  font-size: 100px;
+}
+
+main p {
+  font-size: 60px;
+  color: var(--app-orange);
+}
+
+main input {
+  padding: 10px 20px;
+  margin-top: 25px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+main button {
+  width: 220px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: var(--app-blue);
+  color: var(--app-red-hover);
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+button:hover {
+ background-color: var(--app-blue-hover);
+}
+ 
+
+
